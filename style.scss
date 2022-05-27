@@ -1,0 +1,68 @@
+.box {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid rgb(209, 199, 211);
+    max-width: 50vw;
+    background-color: rgb(180, 156, 169);
+    
+    // .box__title
+
+    &__title {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+
+    // .box__auto
+
+    &__auto {
+        display: flex;
+        align-items: center;
+    justify-content: space-evenly;
+    }
+
+    // .box__class
+
+    &__class {
+        display: flex;
+        align-items: center;
+    justify-content: space-evenly;
+    }
+
+    // .box__txt
+
+    &__txt {
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    // .box__option
+
+    &__option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+  
+
+    // .box__btn
+
+    &__btn {
+        border-radius: 10px;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(54, 42, 65);
+        color: azure;
+        cursor: pointer;
+    }
+
+    &__itog {
+padding-left: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+}

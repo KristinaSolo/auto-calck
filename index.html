@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расчет</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <form class="box" action="#">
+        <h2 class="box__title">Расчет стоимости автомобиль:</h2>
+        <div class="box__auto">
+            <h3 class="box__title">Выберите автомобиль:</h3>
+            <select name="auto" id="auto" class="brand">
+                <option value="auto">-Выберете автомобиль-</option>
+                <option value="KIA">KIA SOUL</option>
+                <option value="AUDI">AUDI Q3</option>
+                <option value="TOYOTA">TOYOTA COROLLA</option>
+                <option value="MAZDA">MAZDA CX5</option>
+                <option value="VOLVO">VOLVO X60</option>
+                <option value="MINI">MINI COOPER</option>
+            </select>
+        </div>
+        <h3 class="box__title">Класс автомобиля :</h3>
+        <div class="box__class">
+            <p class="box__txt"><input type="radio" name="autoclass" class="autoradio" value="400000">Эконом класс</p>
+            <p class="box__txt"><input type="radio" name="autoclass" class="autoradio" value="600000">Люкс класс</p>
+            <p class="box__txt"><input type="radio" name="autoclass" class="autoradio" value="900000">Бизнес класс</p>
+        </div>
+
+        <h3 class="box__title">Дополнительные опции автомобиля :</h3>
+        <div class="box__option">
+            <p class="box__txt"><input type="checkbox" class="check" value="15000">Парктроники</p>
+            <p class="box__txt"><input type="checkbox" class="check" value="26000">Автозапуск</p>
+            <p class="box__txt"><input type="checkbox" class="check" value="14500">Защита картера</p>
+        </div>
+
+        <div class="box__price">
+            <button class="box__btn" id="submit">Рассчитать</button>
+            <label class="box__itog" for="price">Итоговая стоимость:
+                <input type="text" id="price" value="">
+            </label>
+        </div>
+    </form>
+    <script src="./index.js"></script>
+</body>
+
+</html>
